@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url("images/img1.webp");
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: #282d32;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li {
+    padding: 0px 22px;
+    list-style: none;
+
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul li a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#dishes-section {
+    margin-top: 10%;
+}
+
+.banner {
+    margin-top: -30%;
+    margin-left: 10%;
+
+
+}
+
+.banner h4 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.banner h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 65px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.banner p {
+    color: white;
+
+}
+
+.banner button {
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 185px;
+    height: 45px;
+    font-weight: bolder;
+}
+
+.dishes {
+    margin-top: 20%;
+}
+
+.container1 {
+
+    text-align: center;
+}
+
+.container2 {
+
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 6%;
+    padding: 0px 10px;
+    height: 400px;
+    margin-left: 10%;
+
+}
+
+.bx {
+    margin: 0px 15px;
+    overflow: hidden;
+}
+
+
+
+.container1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.container1 p {
+    padding-top: 5px;
+    color: #777777;
+}
+
+.bx h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.bx p {
+    color: #777777;
+    text-align: left;
+}
+
+
+.bx {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img-video {
+    background-image: url("images/img5.webp");
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.video-content h3 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+
+}
+
+.video-content p {
+    padding-top: 15px;
+    color: white;
+}
+
+.video-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -36%;
+}
+
+.features {
+    margin-top: 20%;
+
+
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 12%;
+
+
+}
+
+.food-icons h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.food-icons p {
+    color: #777777;
+
+}
+
+.chefs-title {
+    justify-content: center;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.chefs-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 0px;
+
+}
+
+.chefs-title p {
+    color: #777777;
+}
+
+.container-chefs {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: 12%;
+    padding: 60px 0px;
+}
+
+.chefs h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.chefs p {
+    color: #777777;
+    padding: 0px 0px 0px 0px;
+}
+
+.chefs-area {
+    margin-top: 10%;
+    background-color: #f9f9ff;
+}
+
+.blog-title {
+    justify-content: center;
+    text-align: left;
+    padding-top: 8%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.blog-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 0px;
+
+}
+
+.blog-title p {
+    color: #777777;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    padding: 60px 0px;
+}
+
+.blogs {
+    margin-left: 20px
+}
+
+.blogs h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.blogs p {
+    color: #777777;
+    padding: 10px 0px;
+}
+
+.blogs-area {
+    margin-top: 15%;
+    background-color: #f9f9ff;
+}
+
+.blogs button {
+    background-color: black;
+    padding: 3px 15px;
+    color: #777777;
+    margin-top: 20px;
+}
+
+#contact-section {
+    margin-bottom: 5%;
+}
+
+
+
+.contact-heading h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.contact-details {
+    display: flex;
+    margin-top: 8%;
+
+    justify-content: center;
+}
+
+.contact-me {
+    width: 35%;
+    margin-top: 5%;
+}
+
+.contact-me button {
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 185px;
+    height: 45px;
+    font-weight: bolder;
+}
+
+.footer-dark {
+    color: #f0f9ff;
+    background-color: #282d32;
+    margin-top: 50px;
+
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.row1 {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+
+
+.footBox {
+    width: 30%;
+    height: 200px;
+}
+
+.footBox h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footBox p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    color: #8a3ab9;
+}
+
+.fa-linkedin-in:hover {
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    color: #0072b1;
+}
+
+.fa-twitter:hover {
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    color: #00acee;
+}
+
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    padding-bottom: 30px;
+}
+
+.footer2 p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: grey;
+}
